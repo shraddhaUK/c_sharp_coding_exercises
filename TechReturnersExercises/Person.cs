@@ -4,16 +4,16 @@
     {
         public Person(string firstname, string lastname, string location, int age)
         {
-            firstname = firstname;
-            lastname = lastname;
+            Firstname = firstname;
+            Lastname = lastname;
             Location = location;
             Age = age;
         }
 
-        public string firstname
+        public string Firstname
         { get; set; }
 
-        public string lastname
+        public string Lastname
         { get; set; }
 
         public string Location
